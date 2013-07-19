@@ -15,35 +15,30 @@
  *
  ******************************************************************************/ 
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * AllTest
+ *
+ * Version: 1.0
+ *
+ * Date: Feb 9, 2010
+ *
  */
-package it.unitn.disi.smatch.webapi.model.smatch;
+package it.unitn.disi.smatch.webapi.model;
 
-import java.util.ArrayList;
-import java.util.List;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import junit.framework.Test;
+import junit.framework.TestSuite;
 
 /**
- *
- *  <i>Correspondence</i> represents the output of the semantic matching. It is 
- * a list of <i>CorrespondenceItem</i>.
+ * Test suite of all tests
  * 
- * @author Moaz Reyad <reyad@disi.unitn.it>
- * @date Jul 11, 2013
+ *
+ * @author Sergey Kanshin kanshin@disi.unitn.it
  */
-public class Correspondence {
+public class AllTests extends TestSuite {
 
-    private List<CorrespondenceItem> correspondenceItems;
-
-    public Correspondence(List<CorrespondenceItem> correspondenceItems)  {
-        this.correspondenceItems= correspondenceItems;
-    }
-    
-    public List<CorrespondenceItem> getCorrespondenceItems(){
-        return correspondenceItems;
+    public static Test suite() {
+        TestSuite suite = new TestSuite();
+        suite.addTestSuite(TestCreateModel.class);
+        return suite;
     }
 }

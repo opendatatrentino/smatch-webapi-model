@@ -15,35 +15,8 @@
  *
  ******************************************************************************/ 
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package it.unitn.disi.smatch.webapi.model.smatch;
-
-import java.util.ArrayList;
-import java.util.List;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 /**
- *
- *  <i>Correspondence</i> represents the output of the semantic matching. It is 
- * a list of <i>CorrespondenceItem</i>.
+ * Unit test package
  * 
- * @author Moaz Reyad <reyad@disi.unitn.it>
- * @date Jul 11, 2013
  */
-public class Correspondence {
-
-    private List<CorrespondenceItem> correspondenceItems;
-
-    public Correspondence(List<CorrespondenceItem> correspondenceItems)  {
-        this.correspondenceItems= correspondenceItems;
-    }
-    
-    public List<CorrespondenceItem> getCorrespondenceItems(){
-        return correspondenceItems;
-    }
-}
+package it.unitn.disi.smatch.webapi.model;
