@@ -2,9 +2,17 @@
 
 == Introduction ==
    * Name of the project: (smatch-webapi-model)
-   * Version of the project: 0.9.9
-   * Release notes: https://sweb.science.unitn.it/trac/sweb/wiki/ReleaseNotes/smatch-webapi-model/0.9.9
-   * Javadocs: https://sweb.science.unitn.it/javadocs/smatch-webapi-model/0.9.9 
+   * Version of the project: 1.0.0
+   * Release notes: https://sweb.science.unitn.it/trac/sweb/wiki/ReleaseNotes/smatch-webapi-model/1.0.0
+   * Javadocs: https://sweb.science.unitn.it/javadocs/smatch-webapi-model/1.0.0 
+
+== Goal of the module ==
+
+The goal of this module is to be used to develop client and server modules for S-Match Web API.
+
+An example for a client that uses this model is here: https://github.com/opendatatrentino/smatch-webapi-client
+
+and an example for a server that uses this model is here: https://github.com/opendatatrentino/smatch-webapi-server
 
 == Getting started ==
  * Requirements: Java and Maven.

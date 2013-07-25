@@ -1,6 +1,6 @@
-= Release Notes: Name of the Module. version 0.9.9 =
+= Release Notes: Name of the Module. version 1.0.0 =
 
-Date of the release: 2013/07/19 08:41:17
+Date of the release: 2013/07/25 14:45:49
 
 Design Lead: Moaz Reyad
 
@@ -10,14 +10,18 @@ Developer Lead: Moaz Reyad
 This module provides the model for the S-Match Web API.
 
 == Goal of the module ==
-The goal of this module is to be used by the client and the server modules of S-Match Web API.
+The goal of this module is to be used to develop client and server modules for S-Match Web API.
+
+An example for a client that uses this model is here: https://github.com/opendatatrentino/smatch-webapi-client
+
+and an example for a server that uses this model is here: https://github.com/opendatatrentino/smatch-webapi-server
 
 = Documentation = 
 
-Javadocs: https://sweb.science.unitn.it/javadocs/smatch-webapi-model/0.9.9
+Javadocs: https://sweb.science.unitn.it/javadocs/smatch-webapi-model/1.0.0
 
 
-Manual: https://sweb.science.unitn.it/trac/sweb/wiki/Manuals/smatch-webapi-model/0.9.9
+Manual: https://sweb.science.unitn.it/trac/sweb/wiki/Manuals/smatch-webapi-model/1.0.0
 
 
 = Requirements = 
