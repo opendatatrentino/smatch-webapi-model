@@ -22,6 +22,6 @@ public class BadInvoactionRequestException extends BadRequestException {
      * @param msg the detail message.
      */
     public BadInvoactionRequestException(String msg, InvocationTargetException ex) {
-        super(msg);
+        super(msg + " " + ex.getMessage());
     }
 }
