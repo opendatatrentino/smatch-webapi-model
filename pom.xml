@@ -9,7 +9,7 @@
 
     <groupId>it.unitn.disi</groupId>
     <artifactId>smatch-webapi-model</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0-RC1</version>
     <packaging>jar</packaging>
 
     <name>smatch-webapi-model</name>
@@ -106,7 +106,8 @@
         <url>git@github.com:opendatatrentino/smatch-webapi-model.git</url>
         <connection>scm:git:git://github.com/opendatatrentino/smatch-webapi-model</connection>
         <developerConnection>scm:git:https://github.com/opendatatrentino/smatch-webapi-model.git</developerConnection>
-    </scm>
+      <tag>smatch-webapi-model-1.0.0-RC1</tag>
+  </scm>
 
     
     <developers>
