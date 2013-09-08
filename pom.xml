@@ -105,7 +105,7 @@
     <scm>
         <url>git@github.com:opendatatrentino/smatch-webapi-model.git</url>
         <connection>scm:git:git://github.com/opendatatrentino/smatch-webapi-model</connection>
-        <developerConnection>scm:git:git://github.com/opendatatrentino/smatch-webapi-model</developerConnection>
+        <developerConnection>scm:git:https://github.com/opendatatrentino/smatch-webapi-model.git</developerConnection>
     </scm>
 
     
